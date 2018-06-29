@@ -1,7 +1,7 @@
-img.uk-cover {
+/* img.uk-cover {
     width: 50% !important;
     height: 100% !important;
-}
+} */
 
 img.first-image {
     width: 100% !important;
@@ -10,4 +10,70 @@ img.first-image {
 h1 {
     color: white;
     font-size: 5em;
+}
+
+h3.uk-card-title {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* #hamburger {
+    width: 50%;
+    height: 100%;
+} */
+
+#float-right {
+    float: right;
+}
+
+#background-storm {
+    background-image: url('../images/storm.jpg');
+    width: 100vw;
+    height: 300px;
+}
+
+#background-garden {
+    background-image: url('../images/garden.jpg');
+    width: 100vw;
+    color: rgb(206, 200, 200);
+    opacity: 50%;
+}
+
+#background-temple {
+    background-image: url('../images/celestial-room-copy.jpg');
+    width: 100vw;
+    color: black;
+    opacity: 50%;
+}
+
+#background-pray {
+    background-image: url('../images/praying.jpg');
+    /* width: 100vw; */
+    background-repeat: no-repeat;
+    height: 500px;
+    color: black;
+    opacity: 50%;
+    float: right;
+}
+
+#background-scripture {
+    background-image: url('../images/scriptures-copy.jpg');
+    width: 60vw;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: rgb(233, 229, 229);
+    opacity: 50%;
+}
+
+ul {
+    font-size: 1.75em;
+}
+
+li {
+    font-size: 1em;
+    margin-left: 35px;
+    margin-top: 20px;
 }
